@@ -7,13 +7,13 @@
 
 ## 로컬에서 실행할 때 사전설정하기 (윈도우)
 ```bash
-# 최초 한 번
+# 최초 한 번 (manage.py와 같은 경로에서)
 pip install virtualenv
 virtualenv venv
 source venv/Scripst/activate
 pip install -r requirements.txt
 # 백엔드 톡방에서 .env 파일 다운
-# .env 파일 manage.py와 같은 경로에 넣어주기
+# .env 파일 manage.py와 같은 경로에 작성하기
 
 # 켤 때마다 반복
 source venv/Scripts/activate
@@ -29,13 +29,13 @@ python manage.py runserver
 
 ## 로컬에서 실행할 때 사전설정하기 (맥)
 ```zsh
-# 최초 한 번
+# 최초 한 번 (manage.py와 같은 경로에서)
 pip3 install virtualenv # 안되면 pip install virtualenv
 virtualenv venv
 source venv/bin/activate
 pip3 install -r requirements.txt # 안되면 pip install -r requirements.txt
 # 백엔드 톡방에서 .env 파일 다운
-# .env 파일 manage.py와 같은 경로에 넣어주기
+# .env 파일 manage.py와 같은 경로에 작성하기
 
 # 켤 때마다 반복
 source venv/bin/activate
